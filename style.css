@@ -1,6 +1,6 @@
 body {
-    background-color: #fcf7f7;
-background-image: url("https://www.transparenttextures.com/patterns/paper.png");
+background-color: #fffcfc;
+background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    color: plum;
+    color: palevioletred;
     font-size: 40px;
     text-align: center;
     font-family: fantasy;
@@ -27,10 +27,12 @@ img {
     border-radius: 50%;
 
 }
-.contactMe {
+.button {
     width: 200px;
     padding: 16px;
-    font-size: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     font-style: normal;
     text-align: center;
     margin-top: 30px;
@@ -41,15 +43,24 @@ img {
     transition: 0.3s;
     border-radius: 7px;
     position: bottom;
+    text-decoration: none;
     
 }
 
-.contactMe:hover {
+.button:hover {
     color:lightcoral;
     background-color: lightgreen;
     cursor: pointer;
 }
 
-.contactMe:active {
+.button:active {
     background-color: lime;
+}
+
+li {
+    font-family: Arial;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 40px;
+    align-items: flex-start;
 }
